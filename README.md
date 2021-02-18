@@ -18,7 +18,7 @@ Stress in Office is a model that classifies physiological measurements of stress
 # Repository Breakdown
 - [data](data/) — data used and produced
     - [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files:
-        - [Data to Model](data/data_to_model.csv): CSV file without 
+        - [Data to Model](data/data_to_model.csv): clean data without null values and containing all features available on the dataset
         - [Stress vs. Productivity DataFrame](data/stress_productivity_df.csv): CSV file containing data related to personality tests, physiological measurements and heart rate date from participants
     - [Pickles](https://docs.python.org/3/library/pickle.html):
         - [Study Keys](data/study_keys.pkl): information on variables (meaning, min and max values, etc) extracted from the paper to support model development
