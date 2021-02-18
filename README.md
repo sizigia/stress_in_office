@@ -24,7 +24,7 @@ Stress in Office is a model that classifies physiological measurements of stress
         - [Study Keys](data/study_keys.pkl): information on variables (meaning, min and max values, etc) extracted from the paper to support model development
         - [Extracted model features](data/model_features.pkl): selected features after dimensionality reduction
 - [notebooks](notebooks/) — data treatment process divided into four Jupyter Notebooks with explanations
-    - [Data Wrangling](notebooks/1_Data_Wrangling.ipynb)
+    - [Data Wrangling](notebooks/1_Data_Wrangling.ipynb):
     - [Data Cleaning](notebooks/2_Data_Cleaning.ipynb)
     - [Pre Data Modeling](notebooks/3_a_Pre_Data_Modeling.ipynb)
     - [Data Modeling](notebooks/3_b_Data_Modeling.ipynb)
@@ -35,7 +35,7 @@ Stress in Office is a model that classifies physiological measurements of stress
 # Results
 [...]
 
-# Acknowledgements
+# Acknowledgments
 
 - [Office Tasks 2019 – A Multimodal Dataset](https://osf.io/zd2tn/)
     - **Contributors:** Ioannis Pavlidis, Shaila Zaman, Amanveer Wesley, Christopher Blank
